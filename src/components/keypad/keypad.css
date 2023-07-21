@@ -1,0 +1,53 @@
+.keypad{
+    flex: 1.2;
+    background-color: var(--bg-color-2);
+    padding: 20px;
+    display: flex;
+   
+}
+
+.keypad p{
+    line-height: 1.875rem;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor:pointer;
+    color: var(--text-color-2);
+}
+
+.k_keys{
+    flex:3;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.k_keys p{
+    width: 33%;
+    height: 25%;
+}
+
+.k_keys p:active{
+    border-radius: 100px;
+    color:var(--text-color-3) ;
+    background-color: rgba(0,0,0,0.15);
+}
+
+
+.k_symbols{
+    flex: 1;
+}
+
+
+.k_symbols p{
+    color: #89a5f6;
+    width: 100%;
+    height: 20%;
+}
+
+.k_symbols p:active{
+    border-radius: 100px;
+    color:var(--text-color-3) ;
+    background-color: rgba(0,0,0,0.15);
+}
